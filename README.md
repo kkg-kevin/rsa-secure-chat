@@ -1,27 +1,40 @@
 RSA Secure Chat
+<<<<<<< HEAD
 
 A simple Python-based encrypted chat system between two users — Alice and Bob — built using RSA encryption and socket programming. This project demonstrates how public-key cryptography can be used to secure real-time communication between two endpoints.
 
+=======
+A simple Python-based encrypted chat system between two users — Alice and Bob — built using RSA encryption and socket programming. This project demonstrates how public-key cryptography can be used to secure real-time communication between two endpoints.
+>>>>>>> 127b0dd9a60322e0eab4ddb88c60c693854160d5
 Features
 •	Secure two-way chat using RSA public and private keys
 •	Real-time communication via TCP sockets
 •	Demonstrates encryption and decryption in Python
 •	Simple command-line interface for learning purposes
 •	Easy to set up and run locally
+<<<<<<< HEAD
 
+=======
+>>>>>>> 127b0dd9a60322e0eab4ddb88c60c693854160d5
 Technologies Used
 •	Python 3
 •	rsa library
 •	socket library
 •	pickle for serialization
+<<<<<<< HEAD
 
+=======
+>>>>>>> 127b0dd9a60322e0eab4ddb88c60c693854160d5
 How It Works
 1.	Alice (Server) starts first and waits for a connection.
 2.	Bob (Client) connects to Alice.
 3.	Both exchange public keys securely.
 4.	Messages are encrypted and decrypted using RSA keys.
 5.	Ensures secure communication even if intercepted.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 127b0dd9a60322e0eab4ddb88c60c693854160d5
 Setup Instructions
 1. Install Python dependencies:
    pip install rsa
@@ -29,8 +42,11 @@ Setup Instructions
    python alice.py (server)
    python bob.py (client)
 3. Start chatting — messages are encrypted and decrypted automatically.
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 127b0dd9a60322e0eab4ddb88c60c693854160d5
 Project Structure
 
 rsa-secure-chat/
